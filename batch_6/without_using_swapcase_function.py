@@ -1,4 +1,5 @@
 # define a function
+def swap_case(text):
 # create an empty string
 # use loop
 # use return
