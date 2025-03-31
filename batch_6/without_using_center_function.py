@@ -1,5 +1,5 @@
 # define function
-def center_tex(text, width):
+def center_text(text, width):
 # check text length
 # calculate spaces needed
     total_spaces = max(0, width - len(text))
@@ -11,3 +11,4 @@ def center_tex(text, width):
 text = input("Enter a text:")
 width = int(input("Enter width:"))
 # print the centered text
+print(f"'{center_text(text,width)}'")
