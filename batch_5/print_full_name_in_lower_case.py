@@ -6,5 +6,7 @@ def lower_case():
         full_name = input("Enter your full name:")
         if full_name.strip():
             break
+        print("Please input a valid name:")
 # turn input into lower case letters
+    lower_case = full_name.lower()
 # print full name in lower case
