@@ -10,3 +10,5 @@ def proper_case():
 # turn the input to proper cased letters
     proper_case_name = full_name.title()
 # print the results 
+    print("Full name:", proper_case_name)
+proper_case()
