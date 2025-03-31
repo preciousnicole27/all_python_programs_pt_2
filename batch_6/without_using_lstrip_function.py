@@ -4,6 +4,8 @@ def remove_leading_spaces(text):
     index = 0
 # init index
     while index < len(text) and text [index] == " ":
+        index += 1
 # use slicing
+    return text[index:]
 # get user input 
 # print results
