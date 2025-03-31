@@ -6,9 +6,9 @@ def count_words():
         sentence = input("Enter a sentence:")
         if sentence.strip():
             break
-    print("Please enter a valide sentence:") 
+    print("Please enter a valid sentence:") 
 # count the number of words in the input
     word_count = len(sentence.split())
 # print the amount of words 
-
+    print("Number of words:", word_count)
 count_words()
