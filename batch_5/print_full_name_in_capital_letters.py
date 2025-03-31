@@ -2,5 +2,8 @@
 def capital_letters():
 # ask for user input
 # use while true loop 
+    while True:
+        full_name = input("Enter your full name:")
+        
 # turn input into capital letters
 # print full name in capital letters
