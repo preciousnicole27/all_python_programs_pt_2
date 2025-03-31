@@ -8,4 +8,6 @@ def remove_leading_spaces(text):
 # use slicing
     return text[index:]
 # get user input 
+text = input("Enter a text:")
 # print results
+print(remove_leading_spaces(text))
