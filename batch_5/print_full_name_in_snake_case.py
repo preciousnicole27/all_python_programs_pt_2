@@ -9,4 +9,5 @@ def snake_case():
     else:
         print("Enter a valid name:")
 # convert input using snake casing
+    snake_cased_name = full_name.lower().replace(" ", "_")
 # print full name in snake case
