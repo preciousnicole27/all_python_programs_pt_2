@@ -1,4 +1,5 @@
 # define the function
+def convert_to_lowercase_letters(text):
 # convert the input into lowercase letters
 # ask for user input
 text = input("Enter an input:")
