@@ -9,3 +9,4 @@ def check_suffix(text,suffix):
 text = input("Enter a text:")
 suffix = input("Enter a suffix:")
 # print the results
+print(check_suffix(text,suffix))
