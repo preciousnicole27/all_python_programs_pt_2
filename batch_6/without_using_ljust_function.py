@@ -1,4 +1,6 @@
 # define a function
+def justified_text(text,width):
+    
 # check text length
 # return text
 # add spaces
