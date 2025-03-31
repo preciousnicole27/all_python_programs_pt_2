@@ -1,4 +1,6 @@
 # define the function that will convert the input into lower case
+def lower_case():
+    
 # ask for user input 
 # use while True loop
 # turn input into lower case letters
