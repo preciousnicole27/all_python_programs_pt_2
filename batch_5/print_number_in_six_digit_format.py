@@ -7,6 +7,9 @@ def six_digit_format():
             number = int(input("Enter a number from 0-1000:"))
             if 0 <= number <= 1000:
                 break
+            print("Number out of range")
+        except ValueError:
+            print("Invalid input, Enter a new number:")
 # format the number to 6 digits with leading zero
 # print the number in six digit format
 
