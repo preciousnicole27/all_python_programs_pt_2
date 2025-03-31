@@ -5,8 +5,9 @@ def justified_text(text,width):
     if len(text) >= width:
         return text
 # add spaces
-    return text + " " * (width - len(text))
+    return text + " " * max (0 , width - len(text))
 # ask for user input
 text = input("Enter a text:")
 width = int(input("Enter a width:"))
 # print justified text
+print(repr(justified_text(text, width)))
