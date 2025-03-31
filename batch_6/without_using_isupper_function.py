@@ -1,4 +1,5 @@
 # define the function
+def to_all_uppercase_letter(text):
 # find any lowercase letter
 # use return
 # ask for user input
