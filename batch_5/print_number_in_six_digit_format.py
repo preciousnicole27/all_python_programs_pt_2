@@ -14,4 +14,5 @@ def six_digit_format():
     formatted_number = f"{number:06}"
 # print the number in six digit format
     print("Output:", formatted_number)
+    
 six_digit_format()
