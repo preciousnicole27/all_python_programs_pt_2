@@ -10,3 +10,5 @@ def capital_letters():
 # turn input into capital letters
     capital_name =  full_name.upper()
 # print full name in capital letters
+    print("Full name:", capital_name)
+capital_letters()
