@@ -1,4 +1,5 @@
 # define the function
+def check_suffix(text,suffix):
 # use slicing
 # use return function
 # ask for user for text and suffix input
