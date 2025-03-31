@@ -11,5 +11,5 @@ def pascal_case():
 # turn input into pascal casing
     pascal_case_name = full_name.title().replace(" ", "")
 # print the results
-
+    print("Output:", pascal_case_name)
 pascal_case()
