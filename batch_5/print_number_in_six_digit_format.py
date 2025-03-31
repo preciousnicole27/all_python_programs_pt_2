@@ -11,6 +11,7 @@ def six_digit_format():
         except ValueError:
             print("Invalid input, Enter a new number:")
 # format the number to 6 digits with leading zero
+    formatted_number = f"(number:06)"
 # print the number in six digit format
 
 six_digit_format()
