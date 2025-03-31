@@ -10,5 +10,6 @@ def reverse_case():
 # turn input into reverse casing
     reverse_cased_name = full_name.swapcase()
 # print full name in reverse casing
+    print("Reversed Case:", reverse_cased_name)
 
 reverse_case()
