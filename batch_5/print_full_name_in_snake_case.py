@@ -11,3 +11,5 @@ def snake_case():
 # convert input using snake casing
     snake_cased_name = full_name.lower().replace(" ", "_")
 # print full name in snake case
+    print("Output:", snake_cased_name)
+snake_case()
