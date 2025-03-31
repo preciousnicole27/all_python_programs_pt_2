@@ -3,7 +3,7 @@ def count_characters():
 # use loop
 # ask user for input
     while True:
-        full_name = ("Enter your full name:")
+        full_name = input("Enter your full name:")
         if full_name.strip():
             break
         else:
@@ -11,5 +11,5 @@ def count_characters():
 # count the number of characters un the input
     character_count = len(full_name.replace(" ",""))
 # print the number of characters
-
+    print("Number of characters:", character_count)
 count_characters()
