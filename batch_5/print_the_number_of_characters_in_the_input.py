@@ -9,7 +9,7 @@ def count_characters():
         else:
             print("Please input a valid name:")
 # count the number of characters un the input
-
+    character_count = len(full_name.replace(" ",""))
 # print the number of characters
 
 count_characters()
