@@ -8,6 +8,7 @@ def remove_prefix(text, prefix):
 # use slicing 
     return text[index:]
 # ask for user input
-text = input("Enter a number:")
+text = input("Enter a text:")
 prefix = input("Enter the prefix:")
 # print input with the removed prefix
+print(remove_prefix(text, prefix))
