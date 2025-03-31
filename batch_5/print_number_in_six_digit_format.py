@@ -4,6 +4,9 @@ def six_digit_format():
     while True:
         try:
 # ask for user input
+            number = int(input("Enter a number from 0-1000:"))
+            if 0 <= number <= 1000:
+                break
 # format the number to 6 digits with leading zero
 # print the number in six digit format
 
