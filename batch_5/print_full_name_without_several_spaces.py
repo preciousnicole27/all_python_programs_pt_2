@@ -9,5 +9,6 @@ def remove_leading_spaces():
         print("Please input a valid full name:")
 # print if the input is invalid
 # display the full name without the leading spaces
+    cleaned_name = full_name.lstrip()
 
 remove_leading_spaces()
