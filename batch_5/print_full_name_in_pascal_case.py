@@ -6,9 +6,10 @@ def pascal_case():
         full_name = input("Enter your full name:")
         if full_name.strip():
             break
-        else:
-            print("Please put a valid input:")
+    else:
+        print("Please put a valid input:")
 # turn input into pascal casing
+    pascal_case_name = full_name.title().replace(" ", "")
 # print the results
 
 pascal_case()
