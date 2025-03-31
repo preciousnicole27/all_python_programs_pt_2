@@ -8,8 +8,8 @@ def lower_case_name():
             break
         print("Please input a valid name:")
 # turn input into lower case letters
-    lower_case = full_name.lower()
+    lower_case_name = full_name.lower()
 # print full name in lower case
-   
+    print("Full name:", lower_case_name)
     
-lower_case()
+lower_case_name()
