@@ -8,4 +8,5 @@ def capital_letters():
             break
         print("Please input a valid name:")
 # turn input into capital letters
+    capital_name =  full_name.upper()
 # print full name in capital letters
